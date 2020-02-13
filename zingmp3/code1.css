@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.weekly-items {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    border-bottom: 1px solid #EEE;
+    width: 300px;
+}
+
+.weekly-items .number {
+    padding-right: 10px;
+    
+}
+
+.weekly-items .info {
+    flex-grow: 1;
+}
+
+.weekly-items .info .song-name {
+    font-size: 18px;
+}
+
+.weekly-items .info .singer-name {
+    font-size: 14px;
+    color: #999;
+}

@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;   
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* height: 250px; */
+    background-color: #DDD;
+    color: black;
+}
+.child1 {
+    background-color: blue;
+    flex-basis: 150px;
+    flex-grow: 4;
+}
+
+.child2 {
+    background-color: yellow;
+    flex-basis: 200px;
+    flex-grow: 2;
+}
+
+.container-makeorder .child1 {
+    order: 1;
+}
+/* .child3 {
+    background-color: red;
+    flex-basis: 100px;
+    flex-grow: 1;
+} */
