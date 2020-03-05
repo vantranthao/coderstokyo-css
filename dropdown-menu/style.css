@@ -1,0 +1,31 @@
+.menu {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    padding: 16px 8px;
+}
+
+.menu li:hover {
+    background-color: #EEE;
+    border-radius: 10px;
+}
+
+.has-submenu {
+    position: relative;
+}
+
+.has-submenu:hover .sub-menu{
+    display: block;
+}
+
+.sub-menu {
+    position: absolute;
+    left: 0;
+    list-style: none;
+    padding: 0;
+    display: none;
+    background-color: #EEE;
+}
