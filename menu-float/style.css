@@ -1,0 +1,19 @@
+/* .menu {
+    list-style: none;
+}
+
+.menu li {
+    float: left;
+    padding: 16px 8px;
+} */
+
+/* end part 1 */
+
+.header {
+    height: 100px;
+}
+
+.wrapper {
+    position: relative;
+}
+
